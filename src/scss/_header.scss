@@ -1,0 +1,31 @@
+.header {
+  height: 137px;
+
+  &__menu {
+    display: flex;
+    background-color: #060F42;
+    height: 40px;
+  }
+  &__navbar {
+    margin: auto;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__menu-items &__menu-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  &__menu-item {
+    margin-right: 20px;
+    color: white;
+    font-size: 12px;
+    margin-top: 13px
+  }
+  &__lang-and-auth {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
