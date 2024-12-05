@@ -1,16 +1,17 @@
+$menu-color: #060F42;
 .header {
   height: 137px;
 
   &__menu {
     display: flex;
-    background-color: #060F42;
+    background-color: $menu-color;
     height: 40px;
   }
   &__navbar {
     margin: auto;
     height: 40px;
-    display: flex;
-    justify-content: space-between;
+    /*display: flex;*/
+
   }
   &__menu-items &__menu-list {
     display: flex;
@@ -18,14 +19,38 @@
     margin: 0;
     padding: 0;
   }
+  &__menu-items {
+    /*margin-right: 40%;*/
+  }
   &__menu-item {
-    margin-right: 20px;
+    margin-right: 24px;
     color: white;
     font-size: 12px;
     margin-top: 13px
   }
   &__lang-and-auth {
+    margin: auto;
+    color: white;
     display: flex;
-    justify-content: flex-end;
+
+  }
+  &__hamburger {
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  &__lang {
+   /* justify-self: center;*/
+    margin-right: 30px;
+    font-size: 12px;
+    margin-top: 8px;
+  }
+
+  &__auth {
+    svg {
+      width: 28px;
+      height: 24px;
+    }
   }
 }
