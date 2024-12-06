@@ -1,0 +1,76 @@
+$header-height: 42px;
+.header-second {
+  display: flex;
+  min-height: 97px;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+  box-shadow: 0px 3px 5px #E5E5E5;
+
+    &__logo {
+      max-width: 164px;
+      height: $header-height;
+      flex-shrink: 0;
+    }
+
+    &__search-button {
+      $button-color: #01579B;
+      background-color: $button-color;
+      border: none;
+      border-radius: 0 4px 4px 0;
+      width: 48px;
+
+      svg {
+        fill: $button-color;
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    &__catalog-button {
+      height: $header-height;
+      width: 173px;
+      padding-left: 0;
+      svg {
+        fill: $button-color;
+        height: 41px;
+      }
+    }
+
+  &__search {
+    display: flex;
+    height: $header-height;
+    width: 758px;
+    min-width: 0;
+    flex-shrink: 1;
+  }
+
+  &__action-buttons {
+    display: flex;
+    column-gap: 15px;
+    svg {
+      width: 46px;
+      height: 49px;
+      fill: white;
+    }
+  }
+
+  &__search-input {
+    width: 710px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #E5E5E5;
+    padding: 12px 0 12px 12px;
+  }
+
+  &__phone-number {
+    display: flex;
+    max-width: 156px;
+    height: 32px;
+    border-right: 2px solid $menu-color;
+    /*justify-content: center;
+    flex-direction: column;*/
+    padding-right: 23.5px;
+
+  }
+
+}
