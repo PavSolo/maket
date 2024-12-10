@@ -1,0 +1,11 @@
+.top-goods {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+  height: 436px;
+
+  &__item {
+    background-color: #E5E5E5;
+    height: 390px;
+  }
+}

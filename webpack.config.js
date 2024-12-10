@@ -1,5 +1,6 @@
 const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
 
 module.exports = {
     entry: {
@@ -16,7 +17,10 @@ module.exports = {
                 },
             { loader: "css-loader" },
             { loader: "sass-loader" }
-                ]}
+                ]}, {
+            test: /\.svg$/,
+            loader: 'svg-sprite-loader',
+        }
         ]
     },
     output: {
