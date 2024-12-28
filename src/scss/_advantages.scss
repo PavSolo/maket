@@ -4,11 +4,11 @@
   margin-top: 46px;
   display: flex;
   justify-content: space-between;
-  gap: 58px;
   background-color: blueviolet;
 
   &__element {
     width: 110px;
     height: 110px;
+    background-color: burlywood;
   }
 }
