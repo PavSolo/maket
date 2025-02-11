@@ -5,3 +5,9 @@ $container-paddings: 15px;
   margin-inline: auto;
   padding-inline: $container-paddings;
 }
+
+.smaller-container {
+  max-width: 1275px;
+  margin-inline: auto;
+  padding-inline: $container-paddings;
+}

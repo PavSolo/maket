@@ -2,6 +2,11 @@ body {
   margin: 0;
 }
 
+.picture img{
+  width: 100%;
+  height: auto;
+}
+
 @import "basic-elements";
 @import "container";
 @import "header";
@@ -19,3 +24,6 @@ body {
 @import "reviews";
 @import "inst";
 @import "partners";
+@import "news";
+@import "description";
+@import "footer";

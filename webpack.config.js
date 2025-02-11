@@ -33,15 +33,7 @@ module.exports = {
 
             {
             test: /\.svg$/,
-            use: [
-                {
-                    loader: 'svg-sprite-loader',
-                    options: {
-                        symbolId: 'icon-[name]',
-                    },
-                },
-
-            ],
+            use: ['svg-sprite-loader'],
         }]
     },
     output: {
