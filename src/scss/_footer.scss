@@ -17,6 +17,26 @@
 
   &__section ul {
     list-style: none;
+    padding-left: 0;
+    line-height: 2;
+  }
+
+  &__section-socmed {
+    display: flex;
+    height: 32px;
+    gap: 3.4%;
+  }
+
+  &__section-socmed-item {
+
+  }
+
+  &__section-follow {
+    margin-top: 28px;
+  }
+
+  &__section-follow-title {
+    padding: 4px 0px 4px 0px;
   }
 
   &__bottom {

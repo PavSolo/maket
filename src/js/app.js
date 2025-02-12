@@ -10,6 +10,7 @@ import "../img/news3.png";
 import "../img/news4.png";
 import '../img/banner.jpg';
 import '../img/top_banner.png';
+import '../img/instagram.png';
 import "../svg/hamburger1.svg";
 import "../svg/icon.svg";
 import "../svg/auth.svg";
