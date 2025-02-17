@@ -8,11 +8,16 @@ import "../img/news1.png";
 import "../img/news2.png";
 import "../img/news3.png";
 import "../img/news4.png";
-import '../img/banner.jpg';
-import '../img/top_banner.png';
+import '../img/banner.png';
 import '../img/instagram.png';
+import '../img/product1.png'
+import '../img/product2.png'
+import '../img/product3.png'
+import '../img/product4.png'
+import '../img/product5.png'
+import '../img/product6.png'
 import "../svg/hamburger1.svg";
-import "../svg/icon.svg";
+import "../svg/assembly.svg";
 import "../svg/auth.svg";
 import "../svg/cart.svg";
 import "../svg/compare.svg";
@@ -20,6 +25,16 @@ import "../svg/favorite.svg";
 import "../svg/logo.svg";
 import "../svg/search.svg";
 import "../svg/catalog_button.svg";
+import "../svg/mastercard.svg";
+import "../svg/visa.svg";
+import "../svg/11_years.svg";
+import "../svg/best_price.svg";
+import "../svg/delivery.svg";
+import "../svg/manager.svg";
+import "../svg/mortage.svg";
+import "../svg/warranty.svg";
+import '../svg/colored_star.svg';
+import '../svg/empty_star.svg';
 /*
 import "../img/acer-logo.png";
 import "../img/acer-logo.png";

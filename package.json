@@ -1,8 +1,9 @@
 {
   "scripts": {
-    "serve": "webpack serve",
-    "build": "webpack",
-    "start": "webpack --watch"
+    "serve": "webpack serve -w",
+    "b": "webpack",
+    "start": "webpack --watch",
+    "build": "webpack-dev-server"
   },
   "devDependencies": {
     "css-loader": "^7.1.2",

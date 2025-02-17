@@ -3,11 +3,13 @@
   height: 480px;
   background-color: $main-dark-blue;
   color: white;
+  padding-top: 30px;
 
   &__content {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    //margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   &__section {
@@ -15,10 +17,15 @@
     margin-right: 20px;
   }
 
+  &__section h3 {
+    margin-top: 0;
+  }
+
   &__section ul {
     list-style: none;
     padding-left: 0;
-    line-height: 2;
+    line-height: 1.75;
+    margin-bottom: 0;
   }
 
   &__section-socmed {
@@ -37,15 +44,57 @@
 
   &__section-follow-title {
     padding: 4px 0px 4px 0px;
+    height: 32px;
+  }
+
+  &__section-follow-input {
+    margin-top: 10px;
+    border-radius: 6px;
+    height: 39px;
+  }
+
+  &__section-follow-input input {
+    height: inherit;
+    width: 100%;
   }
 
   &__bottom {
+    display: flex;
+    height: 73px;
+    width: 100%;
     text-align: center;
     border-top: 1px solid #ddd;
-    padding-top: 10px;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+    justify-content: space-between;
   }
 
-  &__buttons {
-    margin-top: 10px;
+  &__bottom-content {
+    display: flex;
+    gap: 30px;
+    height: 40px;
   }
+
+  &__bottom-content svg {
+    height: inherit;
+    width: 157px;
+  }
+
+  &__bottom-cards {
+    height: inherit;
+    display: flex;
+    align-items: center;
+  }
+
+  &__bottom-cards svg {
+    width: 36px;
+    height: 12px;
+  }
+
+  &__bottom-text {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+
 }

@@ -8,6 +8,11 @@ module.exports = {
     entry: {
         main: path.resolve(__dirname, './src/js/app.js'),
     },
+    devServer: {
+        port: 8080,
+        hot: true,
+        watchFiles: path.join(__dirname)
+    },
     module: {
         rules: [{
                 test: /\.scss$/,
