@@ -16,6 +16,15 @@ import '../img/product3.png'
 import '../img/product4.png'
 import '../img/product5.png'
 import '../img/product6.png'
+import '../img/keyboards.png'
+import '../img/mouse.png';
+import '../img/laptop.png';
+import '../img/steering-wheel.png';
+import '../img/video-card.png';
+import '../img/monitor.png';
+import '../img/avatar.png';
+
+//svg
 import "../svg/hamburger1.svg";
 import "../svg/assembly.svg";
 import "../svg/auth.svg";
@@ -34,8 +43,7 @@ import "../svg/manager.svg";
 import "../svg/mortage.svg";
 import "../svg/warranty.svg";
 import '../svg/colored_star.svg';
+import '../svg/arrow-left.svg';
+import '../svg/arrow-right.svg';
 import '../svg/empty_star.svg';
-/*
-import "../img/acer-logo.png";
-import "../img/acer-logo.png";
-import "../img/acer-logo.png";*/
+import '../svg/vertical_line.svg';

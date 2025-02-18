@@ -22,6 +22,28 @@
   }
 
   &__item {
-    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 18px;
+
+    &-round {
+      background-color: #FFFFFF;
+      border-radius: 10000px;
+      width: 82%;
+      height: 83%;
+      position: relative;
+    }
+
+    &-picture {
+      width: 129%;
+      height: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
   }
 }
