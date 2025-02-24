@@ -4,33 +4,40 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="/dist/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class="header">
-    <div class="header__menu">
-        <div class="header__navbar">
-            <nav class="header__menu-items">
-                <div class="header__hamburger">
+    <div class="header__wrap">
+        <div class="header__menu container">
+            <div class="header__nav">
+                <div class="header__nav-item">
                     <svg>
                         <use xlink:href="#hamburger1"></use>
                     </svg>
                 </div>
-                 <ul class="header__menu-list">
-                     <li class="header__menu-item">Акции</li>
-                     <li class="header__menu-item">Кредит</li>
-                     <li class="header__menu-item">Оплата и доставка</li>
-                     <li class="header__menu-item">Помощь</li>
-                     <li class="header__menu-item">Скупка Б/У</li>
-                     <li class="header__menu-item">Контакты</li>
-                 </ul>
-             </nav>
-        </div>
-        <div class="header__lang-and-auth">
-            <div class="header__lang">RU/UA</div>
-            <div class="header__auth">
-                <svg>
-                <use xlink:href="#auth"></use>
-                </svg>
+                <div class="header__nav-item">Акции</div>
+                <div class="header__nav-item">Кредит</div>
+                <div class="header__nav-item">Оплата и доставка</div>
+                <div class="header__nav-item">Помощь</div>
+                <div class="header__nav-item">Скупка Б/У</div>
+                <div class="header__nav-item">Контакты</div>
+            </div>
+            <div class="header__nav nav-margin">
+                <div class="header__nav-item ">
+                    <div class="header__nav-item-lang">
+                        <div>UA</div>
+                        <div>/</div>
+                        <div>RU</div>
+                    </div>
+                </div>
+                <div class="header__nav-item">
+                    <svg>
+                        <use xlink:href="#auth"></use>
+                    </svg>
+                </div>
             </div>
         </div>
     </div>
@@ -40,6 +47,7 @@
             <use xlink:href="#logo"></use>
         </svg>
         <button class="header-second__catalog-button button">
+            Каталог товаров
             <svg class="header-second__logo">
                 <use xlink:href="#catalog_button"></use>
             </svg>
@@ -53,8 +61,9 @@
             </button>
         </div>
         <div class="header-second__phone-number">
+            <a href="tel:050658796">050 065 87 96</a>
             <svg>
-                <use xlink:href="#phone-number"></use>
+                <use xlink:href="#down-arrow"></use>
             </svg>
         </div>
         <div class="header-second__action-buttons">
@@ -75,137 +84,170 @@
         <div class="banner-and-categories-wrap">
             <div class="categories">
                 <div class="categories__element">
-                    <svg class="categories__element-icon">
-
-                    </svg>
-                    <p class="categories__element-text">
-                        Комплектующие ПК
-                    </p>
-                    <svg>
-
-                    </svg>
+                    <div class="categories__element-name">
+                        <div class="categories__element-icon">
+                            <svg>
+                                <use xlink:href="#processor"></use>
+                            </svg>
+                        </div>
+                        <div class="categories__element-title">Комплектующие ПК</div>
+                    </div>
+                    <div class="categories__element-arrow">
+                        <svg>
+                            <use xlink:href="#categories_arrow"></use>
+                        </svg>
+                    </div>
                 </div>
                 <div class="categories__element">
-                    <svg class="categories__element-icon">
-
-                    </svg>
-                    <p class="categories__element-text">
-                        Комплектующие ПК
-                    </p>
-                    <svg>
-
-                    </svg>
+                    <div class="categories__element-name">
+                        <div class="categories__element-icon">
+                            <svg>
+                                <use xlink:href="#monitor"></use>
+                            </svg>
+                        </div>
+                        <div class="categories__element-title">Мониторы</div>
+                    </div>
+                    <div class="categories__element-arrow">
+                        <svg>
+                            <use xlink:href="#categories_arrow"></use>
+                        </svg>
+                    </div>
                 </div>
                 <div class="categories__element">
-                    <svg class="categories__element-icon">
-
-                    </svg>
-                    <p class="categories__element-text">
-                        Комплектующие ПК
-                    </p>
-                    <svg>
-
-                    </svg>
+                    <div class="categories__element-name">
+                        <div class="categories__element-icon">
+                            <svg>
+                                <use xlink:href="#computer"></use>
+                            </svg>
+                        </div>
+                        <div class="categories__element-title">Компьютеры</div>
+                    </div>
+                    <div class="categories__element-arrow">
+                        <svg>
+                            <use xlink:href="#categories_arrow"></use>
+                        </svg>
+                    </div>
                 </div>
                 <div class="categories__element">
-                    <svg class="categories__element-icon">
-
-                    </svg>
-                    <p class="categories__element-text">
-                        Комплектующие ПК
-                    </p>
-                    <svg>
-
-                    </svg>
+                    <div class="categories__element-name">
+                        <div class="categories__element-icon">
+                            <svg>
+                                <use xlink:href="#laptop"></use>
+                            </svg>
+                        </div>
+                        <div class="categories__element-title">Ноутбуки</div>
+                    </div>
+                    <div class="categories__element-arrow">
+                        <svg>
+                            <use xlink:href="#categories_arrow"></use>
+                        </svg>
+                    </div>
                 </div>
                 <div class="categories__element">
-                    <svg class="categories__element-icon">
-
-                    </svg>
-                    <p class="categories__element-text">
-                        Комплектующие ПК
-                    </p>
-                    <svg>
-
-                    </svg>
+                    <div class="categories__element-name">
+                        <div class="categories__element-icon">
+                            <svg>
+                                <use xlink:href="#console"></use>
+                            </svg>
+                        </div>
+                        <div class="categories__element-title">Игровые консоли</div>
+                    </div>
+                    <div class="categories__element-arrow">
+                        <svg>
+                            <use xlink:href="#categories_arrow"></use>
+                        </svg>
+                    </div>
                 </div>
                 <div class="categories__element">
-                    <svg class="categories__element-icon">
-
-                    </svg>
-                    <p class="categories__element-text">
-                        Комплектующие ПК
-                    </p>
-                    <svg>
-
-                    </svg>
+                    <div class="categories__element-name">
+                        <div class="categories__element-icon">
+                            <svg>
+                                <use xlink:href="#laptop_component"></use>
+                            </svg>
+                        </div>
+                        <div class="categories__element-title">Комплектующие к ноутбукам</div>
+                    </div>
+                    <div class="categories__element-arrow">
+                        <svg>
+                            <use xlink:href="#categories_arrow"></use>
+                        </svg>
+                    </div>
                 </div>
                 <div class="categories__element">
-                    <svg class="categories__element-icon">
-
-                    </svg>
-                    <p class="categories__element-text">
-                        Комплектующие ПК
-                    </p>
-                    <svg>
-
-                    </svg>
+                    <div class="categories__element-name">
+                        <div class="categories__element-icon">
+                            <svg>
+                                <use xlink:href="#tablet"></use>
+                            </svg>
+                        </div>
+                        <div class="categories__element-title">Планшеты</div>
+                    </div>
+                    <div class="categories__element-arrow">
+                        <svg>
+                            <use xlink:href="#categories_arrow"></use>
+                        </svg>
+                    </div>
                 </div>
                 <div class="categories__element">
-                    <svg class="categories__element-icon">
-
-                    </svg>
-                    <p class="categories__element-text">
-                        Комплектующие ПК
-                    </p>
-                    <svg>
-
-                    </svg>
+                    <div class="categories__element-name">
+                        <div class="categories__element-icon">
+                            <svg>
+                                <use xlink:href="#printer"></use>
+                            </svg>
+                        </div>
+                        <div class="categories__element-title">Принтеры и МФУ</div>
+                    </div>
+                    <div class="categories__element-arrow">
+                        <svg>
+                            <use xlink:href="#categories_arrow"></use>
+                        </svg>
+                    </div>
                 </div>
                 <div class="categories__element">
-                    <svg class="categories__element-icon">
-
-                    </svg>
-                    <p class="categories__element-text">
-                        Комплектующие ПК
-                    </p>
-                    <svg>
-
-                    </svg>
+                    <div class="categories__element-name">
+                        <div class="categories__element-icon">
+                            <svg>
+                                <use xlink:href="#speakers"></use>
+                            </svg>
+                        </div>
+                        <div class="categories__element-title">Акустические колонки</div>
+                    </div>
+                    <div class="categories__element-arrow">
+                        <svg>
+                            <use xlink:href="#categories_arrow"></use>
+                        </svg>
+                    </div>
                 </div>
                 <div class="categories__element">
-                    <svg class="categories__element-icon">
-
-                    </svg>
-                    <p class="categories__element-text">
-                        Комплектующие ПК
-                    </p>
-                    <svg>
-
-                    </svg>
+                    <div class="categories__element-name">
+                        <div class="categories__element-icon">
+                            <svg>
+                                <use xlink:href="#web_staff"></use>
+                            </svg>
+                        </div>
+                        <div class="categories__element-title">Сетевое оборудование</div>
+                    </div>
+                    <div class="categories__element-arrow">
+                        <svg>
+                            <use xlink:href="#categories_arrow"></use>
+                        </svg>
+                    </div>
                 </div>
                 <div class="categories__element">
-                    <svg class="categories__element-icon">
-
-                    </svg>
-                    <p class="categories__element-text">
-                        Комплектующие ПК
-                    </p>
-                    <svg>
-
-                    </svg>
+                    <div class="categories__element-name">
+                        <div class="categories__element-icon">
+                            <svg>
+                                <use xlink:href="#processor"></use>
+                            </svg>
+                        </div>
+                        <div class="categories__element-title">Мониторы</div>
+                    </div>
+                    <div class="categories__element-arrow">
+                        <svg>
+                            <use xlink:href="#categories_arrow"></use>
+                        </svg>
+                    </div>
                 </div>
-                <!--<div class="categories__element">
-                    <svg class="categories__element-icon">
-
-                    </svg>
-                    <p class="categories__element-text">
-                        Комплектующие ПК
-                    </p>
-                    <svg class="categories__element-arrow">
-
-                    </svg>
-                </div>-->
             </div>
 
             <div class="banner-and-advantages">
@@ -1621,9 +1663,11 @@
                         <div class="reviews__main-bottom-date">07.04.2021</div>
                     </div>
                 </div>
-                <svg>
-                    <use xlink:href="#vertical_line"></use>
-                </svg>
+               <!-- <div class="reviews__line">
+                    <svg>
+                        <use xlink:href="#vertical_line"></use>
+                    </svg>
+                </div>-->
                 <div class="reviews__rating">
                     <div class="reviews__rating-grade">
                         <div class="reviews__rating-grade-number">4,7</div>
@@ -1657,8 +1701,32 @@
         </div>
         <div class="inst">
             <div class="inst__title">Инстаграм</div>
-            <div class="inst__block"></div>
-            <div class="inst__link">Перейти</div>
+            <div class="inst__block">
+                <div class="inst__item">
+                    <img src="src/img/inst_1.png">
+                </div>
+                <div class="inst__item">
+                    <img src="src/img/inst_2.png">
+                </div>
+                <div class="inst__item">
+                    <img src="src/img/inst_1.png">
+                </div>
+                <div class="inst__item">
+                    <img src="src/img/inst_2.png">
+                </div>
+                <div class="inst__item">
+                    <img src="src/img/inst_1.png">
+                </div>
+                <div class="inst__item">
+                    <img src="src/img/inst_1.png">
+                </div>
+            </div>
+            <div class="inst__link">
+                Перейти
+                <svg>
+                    <use xlink:href="#arrow-right"></use>
+                </svg>
+            </div>
         </div>
     </div>
     <div class="partners container">
@@ -1701,7 +1769,12 @@
                 <img src="/src/img/hp_logo.png">
             </div>
         </div>
-        <div class="partners__link">Все партнеры</div>
+        <div class="partners__link">
+            Все партнеры
+            <svg>
+                <use xlink:href="#arrow-right"></use>
+            </svg>
+        </div>
     </div>
     <div class="news container">
         <div class="news__title">
@@ -1712,29 +1785,104 @@
                 <div class="news__image picture">
                     <img src="/src/img/news1.png">
                 </div>
-                <div class="news__text"></div>
+                <div class="news__text-wrap">
+                    <div class="news__text">
+                            <div class="news__text-title">
+                                Вакансия! Требуется контент-менеджер
+                            </div>
+                            <div class="news__text-middle">
+                                Интернет-магазину V-COMP на постоянную работу, требуется контент-менеджер. Работа удаленно (на дому), не сложная...
+                            </div>
+                            <div class="news__text-bottom">
+                                <div class="news__text-bottom-date">07.07.2021 </div>
+                                <div class="news__text-bottom-link">
+                                    Читать полностью
+                                    <svg>
+                                        <use xlink:href="#arrow-right"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                    </div>
+                </div>
             </div>
             <div class="news__item">
                 <div class="news__image picture">
                     <img src="/src/img/news2.png">
                 </div>
-                <div class="news__text"></div>
+                <div class="news__text-wrap">
+                    <div class="news__text">
+                        <div class="news__text-title">
+                            Бесплатная сборка ПК
+                        </div>
+                        <div class="news__text-middle">
+                            Друзья! При покупке всех комплектующих для ПК в нашей компании, сборка ПК бесплатно. Вам не нужно тратить время и рисковать...
+                        </div>
+                        <div class="news__text-bottom">
+                            <div class="news__text-bottom-date">07.07.2021 </div>
+                            <div class="news__text-bottom-link">
+                                Читать полностью
+                                <svg>
+                                    <use xlink:href="#arrow-right"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="news__item">
                 <div class="news__image picture">
                     <img src="/src/img/news3.png">
                 </div>
-                <div class="news__text"></div>
+                <div class="news__text-wrap">
+                    <div class="news__text">
+                        <div class="news__text-title">
+                            Бесплатная доставка
+                        </div>
+                        <div class="news__text-middle">
+                            Бесплатная доставка по Днепру (курьером) при покупке от 3000 грн. (Подробнее в разделе Оплата и доставка)...
+                        </div>
+                        <div class="news__text-bottom">
+                            <div class="news__text-bottom-date">07.07.2021 </div>
+                            <div class="news__text-bottom-link">
+                                Читать полностью
+                                <svg>
+                                    <use xlink:href="#arrow-right"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="news__item">
                 <div class="news__image picture">
                     <img src="/src/img/news4.png">
                 </div>
-                <div class="news__text"></div>
+                <div class="news__text-wrap">
+                    <div class="news__text">
+                        <div class="news__text-title">
+                            Акция! Подготовь ноутбук к лету!)
+                        </div>
+                        <div class="news__text-middle">
+                            У нас ежегодная акция "Подготовь ноутбук к лету!" 50% скидка на чистку ноутбука, 15.05.19-15.06.19 В чистку входит...
+                        </div>
+                        <div class="news__text-bottom">
+                            <div class="news__text-bottom-date">07.07.2021 </div>
+                            <div class="news__text-bottom-link">
+                                Читать полностью
+                                <svg>
+                                    <use xlink:href="#arrow-right"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="news__link">
             Все новости
+            <svg>
+                <use xlink:href="#arrow-right"></use>
+            </svg>
         </div>
     </div>
 <div class="description smaller-container">

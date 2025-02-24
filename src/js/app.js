@@ -23,6 +23,9 @@ import '../img/steering-wheel.png';
 import '../img/video-card.png';
 import '../img/monitor.png';
 import '../img/avatar.png';
+import '../img/inst_1.png';
+import '../img/inst_2.png';
+import '../img/inst_3.png';
 
 //svg
 import "../svg/hamburger1.svg";
@@ -47,3 +50,17 @@ import '../svg/arrow-left.svg';
 import '../svg/arrow-right.svg';
 import '../svg/empty_star.svg';
 import '../svg/vertical_line.svg';
+import '../svg/down-arrow.svg';
+import '../svg/header_line.svg';
+import '../svg/processor.svg';
+import '../svg/categories_arrow.svg';
+import '../svg/computer.svg';
+import '../svg/console.svg';
+import '../svg/laptop.svg';
+import '../svg/laptop_component.svg';
+import '../svg/monitor.svg';
+import '../svg/printer.svg';
+import '../svg/speakers.svg';
+import '../svg/tablet.svg';
+import '../svg/web_staff.svg';
+

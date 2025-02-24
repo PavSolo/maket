@@ -1,56 +1,45 @@
-$menu-color: #060F42;
+@import 'basic-elements';
+//$menu-color: #060F42;
+
 .header {
-  height: 137px;
+
+  &__wrap {
+    height: 40px;
+    background-color: $main-dark-blue;
+  }
 
   &__menu {
     display: flex;
-    background-color: $menu-color;
-    height: 40px;
+    justify-content: space-between;
+    height: 100%;
   }
-  &__navbar {
-    margin: auto;
-    height: 40px;
-    /*display: flex;*/
 
-  }
-  &__menu-items &__menu-list {
+  &__nav {
     display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  &__menu-items {
-    /*margin-right: 40%;*/
-  }
-  &__menu-item {
-    margin-right: 24px;
-    color: white;
-    font-size: 12px;
-    margin-top: 13px
-  }
-  &__lang-and-auth {
-    margin: auto;
-    color: white;
-    display: flex;
+    justify-content: space-between;
+    gap: 9%;
+    align-items: center;
 
-  }
-  &__hamburger {
-    svg {
-      width: 24px;
-      height: 24px;
+    &-item {
+      color: $white-color;
+      font-size: 10px;
+      white-space: nowrap;
+
+      svg {
+        width: 24px;
+        height: 24px;
+      }
+
+      &-lang {
+        width: 42px;
+        display: flex;
+        justify-content: space-between;
+      }
     }
   }
-  &__lang {
-   /* justify-self: center;*/
-    margin-right: 30px;
-    font-size: 12px;
-    margin-top: 8px;
-  }
+}
 
-  &__auth {
-    svg {
-      width: 28px;
-      height: 24px;
-    }
-  }
+.nav-margin {
+  width: 106px;
+  gap: 3%;
 }

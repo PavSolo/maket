@@ -9,6 +9,10 @@
   }
 
   &__block {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 8px 0 8px 8px;
     width: 100%;
     height: 156px;
     border-radius: 4px;
@@ -16,9 +20,22 @@
     margin-top: 24px;
   }
 
+  &__item {
+    //height: auto;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
   &__link {
     margin-top: 27px;
     font-size: 14px;
-    margin-right: 0px;
+    text-align: right;
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
   }
 }
