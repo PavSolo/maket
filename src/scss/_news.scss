@@ -31,29 +31,42 @@
     }
 
     &-title {
-      color: #060F42;
-      font-size: 16px;
+      color: $main-dark-blue;
+      font: {
+        size: 16px;
+        weight: 700;
+      }
+      line-height: 20px;
       margin-bottom: 2.26%;
     }
 
     &-middle {
       color: #333333;
-      font-size: 15px;
+      font: {
+        size: 14px;
+        weight: 500;
+      }
+      line-height: 16px;
       margin-bottom: 2.26%;
     }
 
     &-bottom {
       display: flex;
       justify-content: space-between;
-      font-size: 10px;
+      font: {
+        size: 10px;
+        weight: 500;
+      }
+      line-height: 10px;
 
       &-date {
         color: #CCCCCC;
       }
 
       &-link {
-        color: #01579B;
-
+        color: $secondary;
+        display: flex;
+        align-items: center;
         svg {
           width: 12px;
           height: 12px;

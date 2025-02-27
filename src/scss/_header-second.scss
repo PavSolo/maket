@@ -32,13 +32,11 @@ $header-height: 42px;
       align-items: center;
       justify-content: space-between;
       color: $white-color;
-      //font-size: 15px;
-
+      line-height: 12px;
       font:
       {
-        size: 15px;
-        family: Lato;
-        weight: 700;
+        size: 12px;
+        weight: bold;
       }
 
       height: $header-height;
@@ -84,15 +82,15 @@ $header-height: 42px;
     height: 32px;
     gap: 10px;
     border-right: 2px solid black;
-
-    //border-right: 2px solid $menu-color;
-    /*justify-content: center;
-    flex-direction: column;*/
     padding-right: 25.5px;
 
     a {
       text-decoration: none;
-      font-size: 20.5px;
+      font: {
+        size: 18px;
+        weight: bold;
+      }
+      line-height: 28px;
       color: $main-dark-blue;
     }
 

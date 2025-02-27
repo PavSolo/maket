@@ -15,12 +15,12 @@ module.exports = {
     },
     module: {
         rules: [{
-                test: /\.scss$/,
+                test: /\.(scss|less|css)$/,
                 use: [{
                     loader: MiniCssExtractPlugin.loader,
                 },
-            { loader: "css-loader" },
-            { loader: "sass-loader" }
+                    { loader: "css-loader" },
+                    { loader: "sass-loader" }
                 ]
         },{
             test: /\.(png|jpe?g|gif)$/i,

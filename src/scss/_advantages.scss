@@ -4,8 +4,9 @@
   margin-top: 46px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  //align-items: center;
   padding-right: 27px;
+  box-sizing: border-box;
 
   &__element {
     width: 110px;
@@ -16,10 +17,13 @@
   }
 
   &__text {
-    display: flex;
-    width: 65px;
-    align-items: center;
-    font-size: 12px;
+    height: 24px;
+    line-height: 12px;
+    font: {
+      size: 12px;
+      weight: 700;
+    }
+    color: $main-dark-blue;
     text-align: center;
     margin: auto;
   }
@@ -31,8 +35,8 @@
     align-self: center;
 
     svg {
-      width: 60px;
-      height: 60px;
+      max-width: 60px;
+      max-height: 60px;
       margin: auto;
       align-self: center;
     }

@@ -1,3 +1,4 @@
+import './slider';
 import "../scss/app.scss";
 import "../img/samsung_logo.png";
 import "../img/hp_logo.png";

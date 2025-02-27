@@ -20,6 +20,7 @@
     "webpack-dev-server": "^5.2.0"
   },
   "dependencies": {
-    "fileloader": "^2.0.0"
+    "fileloader": "^2.0.0",
+    "swiper": "^11.2.4"
   }
 }

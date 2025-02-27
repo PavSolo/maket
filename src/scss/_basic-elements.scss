@@ -1,6 +1,43 @@
 $button-color: #06A56C;
 $main-dark-blue: #060F42;
 $white-color: #F4F8FB;
+$product-card-gray: #999999;
+$reviews-gray: #666666;
+$secondary: #01579B;
+$red: #E93232;
+
+body {
+  margin: 0;
+  font-family: Lato, Roboto, sans-serif;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Regular.ttf") format('ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Bold.ttf") format('ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Medium.ttf") format('ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Black.ttf") format('ttf');
+  font-weight: 900;
+}
+
+.picture img{
+  width: 100%;
+  height: auto;
+}
 
 .button {
   background-color: $button-color ;
