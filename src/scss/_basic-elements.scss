@@ -19,6 +19,12 @@ body {
 
 @font-face {
   font-family: Lato;
+  src: url("../fonts/Lato-Semibold.ttf") format('ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Lato;
   src: url("../fonts/Lato-Bold.ttf") format('ttf');
   font-weight: 700;
 }
@@ -43,4 +49,18 @@ body {
   background-color: $button-color ;
   border: none;
   border-radius: 4px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 4px;
+  font: {
+    size: 14px;
+    weight: 500;
+  };
+  color: $secondary;
+  line-height: 14px;
+  letter-spacing: .02em;
 }

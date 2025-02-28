@@ -4,8 +4,8 @@
 
   &__info {
     position: absolute;
-    top: 40px;
-    left: 40px;
+    top: 8.7%;
+    left: 3.05%;
   }
 
   &__title {
@@ -42,13 +42,21 @@
 
 .mySwiper {
   max-height: 400px;
-  max-width: 1145px;
-  display: flex;
+  max-width: 100%;
 }
-
+/*@media (max-width: 1410px) {
+  .mySwiper {
+    width: 1000px;
+  }
+}
+@media (max-width: 1250px) {
+  .mySwiper {
+    width: 800px;
+  }
+}*/
 .swiper-pagination {
   bottom: 40px !important;
-  left: 40px !important;
+  left: 3.05% !important;
   width: unset !important;
 
   &-bullet {
