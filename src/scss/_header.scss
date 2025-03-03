@@ -25,6 +25,24 @@
       font-size: 10px;
       white-space: nowrap;
 
+      button {
+        background: none;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+
+        svg {
+          width: 24px;
+          height: 24px;
+        }
+
+      }
+      button:hover {
+        use {
+          fill: $secondary;
+        }
+      }
+
       svg {
         width: 24px;
         height: 24px;

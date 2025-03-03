@@ -1,4 +1,9 @@
 import './slider';
+//import {ModalDialog} from "./popup";
+
+document.addEventListener('DOMContentLoaded', () => {
+    //const authPopup = new ModalDialog('auth__popup', 'auth-btn', 'auth-close');
+});
 import "../scss/app.scss";
 import "../img/samsung_logo.png";
 import "../img/hp_logo.png";
