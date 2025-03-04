@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="/dist/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class="header">
@@ -34,12 +33,11 @@
                     </div>
                 </div>
                 <div class="header__nav-item">
-                    <button class="auth-btn" type="button" aria-haspopup="dialog">
+                    <button class="auth-btn" type="button">
                     <svg>
-                        <use class="auth" xlink:href="#auth"></use>
+                        <use xlink:href="#auth"></use>
                     </svg>
                     </button>
-
                 </div>
             </div>
         </div>
@@ -83,6 +81,64 @@
         </div>
     </div>
 </header>
+<div class="overlay">
+    <div class="auth">
+        <div class="auth__wrapper">
+            <div class="auth__title">
+                Вход
+                <div class="auth__close-btn">
+                    <button>
+                        <svg>
+                            <use xlink:href="#cross"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="auth__form">
+                <form>
+                    <input class="auth__phone-number" type="tel" placeholder="Ваш номер телефона">
+                    <input class="auth__password" type="password" placeholder="Пароль">
+                    <div class="auth__form-icon">
+                        <svg>
+                            <use xlink:href="#eye"></use>
+                        </svg>
+                    </div>
+                    <div class="auth__forgot-password">
+                        <a>Забыли пароль?</a>
+                    </div>
+                    <div class="auth__submit-button">
+                        <button type="submit">ВОЙТИ</button>
+                    </div>
+                </form>
+            </div>
+            <div class="auth__buttons">
+                <div class="auth__buttons-divider">
+                    <div></div>
+                    или войти с помощью
+                    <div></div>
+                </div>
+                <div class="auth__buttons-variants">
+                    <button class="google">
+                        <svg>
+                            <use xlink:href="#google"></use>
+                        </svg>
+                        Google
+                    </button>
+                    <button class="facebook">
+                        <svg>
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                        Facebook
+                    </button>
+                </div>
+            </div>
+            <div class="auth__sign-up">
+                Нет аккаунта?
+                <a>Зарегистрироваться</a>
+            </div>
+        </div>
+    </div>
+</div>
     <div class="main container">
         <div class="banner-and-categories-wrap">
             <div class="categories">

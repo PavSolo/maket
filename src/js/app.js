@@ -1,8 +1,8 @@
 import './slider';
-//import {ModalDialog} from "./popup";
+import {PopupWindow} from "./popup";
 
 document.addEventListener('DOMContentLoaded', () => {
-    //const authPopup = new ModalDialog('auth__popup', 'auth-btn', 'auth-close');
+    const authPopup = new PopupWindow('overlay', 'auth-btn', 'auth__close-btn');
 });
 import "../scss/app.scss";
 import "../img/samsung_logo.png";
@@ -69,4 +69,8 @@ import '../svg/printer.svg';
 import '../svg/speakers.svg';
 import '../svg/tablet.svg';
 import '../svg/web_staff.svg';
+import '../svg/cross.svg';
+import '../svg/google.svg';
+import '../svg/facebook.svg';
+import '../svg/eye.svg';
 
