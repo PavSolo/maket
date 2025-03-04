@@ -1,7 +1,7 @@
 export class PopupWindow {
     overlay = document.querySelector('.overlay');
     constructor(popupSelector, openerSelector, closerSelector) {
-        this.overlay = document.querySelector(`.${popupSelector}`);
+        this.popupWindow = document.querySelector(`.${popupSelector}`);
         this.popupOpener = document.querySelector(`.${openerSelector}`);
         this.popupCloser = document.querySelector(`.${closerSelector}`);
 
@@ -26,6 +26,7 @@ export class PopupWindow {
     }
 
     open() {
-        this.overlay.style.display = 'unset'
+        this.overlay.style.display = 'unset';
+        this.popupWindow.style.display = 'unset';
     }
 }

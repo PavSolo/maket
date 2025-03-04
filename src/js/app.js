@@ -2,7 +2,7 @@ import './slider';
 import {PopupWindow} from "./popup";
 
 document.addEventListener('DOMContentLoaded', () => {
-    const authPopup = new PopupWindow('overlay', 'auth-btn', 'auth__close-btn');
+    const authPopup = new PopupWindow('auth', 'auth-btn', 'auth__close-btn');
 });
 import "../scss/app.scss";
 import "../img/samsung_logo.png";
