@@ -21,3 +21,15 @@
     }
   }
 }
+
+@media (max-width: 900px) {
+  .top-goods {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @for $i from 4 through 6 {
+    .order-#{$i} {
+       display: none;
+    }
+  }
+}

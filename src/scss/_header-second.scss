@@ -5,7 +5,6 @@ $header-height: 42px;
   justify-content: space-between;
   align-items: center;
   column-gap: 20px;
-  //box-shadow: 0px 3px 5px #E5E5E5;
 
     &__logo {
       max-width: 164px;
@@ -41,7 +40,6 @@ $header-height: 42px;
 
       height: $header-height;
       width: 173px;
-      //padding-left: 0;
       padding: 0 0.8% 0 0.8%;
 
       svg {
@@ -83,6 +81,7 @@ $header-height: 42px;
     gap: 10px;
     border-right: 2px solid black;
     padding-right: 25.5px;
+    white-space: nowrap;
 
     a {
       text-decoration: none;

@@ -128,3 +128,21 @@
   box-shadow: none;
   background-color: #FFFFFF;
 }
+
+@media (max-width: 1100px) {
+  .product-card__buy-button button{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 950px) {
+  .product-card__buy-button button{
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 900px) {
+  .product-card__buy-button button{
+    font-size: 12px;
+  }
+}

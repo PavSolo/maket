@@ -46,3 +46,13 @@
 .wider {
   width: 122px;
 }
+
+@media (max-width: 1050px) {
+  .advantages {
+    gap: 3%;
+
+    &__text {
+      font-size: 10px;
+    }
+  }
+}

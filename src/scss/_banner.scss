@@ -1,3 +1,5 @@
+$margin-top-banner: 32px;
+$margin-top-banner-medium: 15px;
 .banner {
   width: 100%;
   position: relative;
@@ -17,7 +19,7 @@
   }
 
   &__text {
-    margin-top: 32px;
+    margin-top: $margin-top-banner;
     color: $white-color;
     font: {
       size: 18px;
@@ -26,7 +28,7 @@
   }
 
   &__button button {
-    margin-top: 32px;
+    margin-top: $margin-top-banner;
     width: 165px;
     height: 43px;
     background-color: $red;
@@ -44,18 +46,26 @@
   max-height: 400px;
   max-width: 100%;
 }
-/*@media (max-width: 1410px) {
-  .mySwiper {
-    width: 1000px;
+
+@media (max-width: 1060px) {
+  .banner {
+    &__info {
+      top: 5%;
+      left: 2.5%;
+    }
+
+    &__text {
+      margin-top: $margin-top-banner-medium;
+    }
+
+    &__button button {
+      margin-top: $margin-top-banner-medium;
+    }
   }
 }
-@media (max-width: 1250px) {
-  .mySwiper {
-    width: 800px;
-  }
-}*/
+
 .swiper-pagination {
-  bottom: 40px !important;
+  bottom: 10% !important;
   left: 3.05% !important;
   width: unset !important;
 
