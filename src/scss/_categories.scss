@@ -4,6 +4,7 @@
 
   &__element {
     width: 100%;
+    cursor: pointer;
     height: 48px;
     display: flex;
     justify-content: space-between;
@@ -12,6 +13,11 @@
     box-sizing: border-box;
     padding: 0 12px;
     margin-top: 2.8px;
+    border-radius: 4px;
+
+    &:hover {
+      background-color: #d5d5d5;
+    }
 
     &-name {
       display: flex;
@@ -53,7 +59,7 @@
 
 .last::before {
   content: '';
-  position: absolute; /* Абсолютное позиционирование для наложения */
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;

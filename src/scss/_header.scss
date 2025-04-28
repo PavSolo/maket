@@ -18,9 +18,17 @@
     align-items: center;
 
     &-item {
-      color: $white-color;
-      font-size: 10px;
       white-space: nowrap;
+
+      a {
+        text-decoration: none;
+        font-size: 10px;
+        color: $white-color;
+      }
+
+      a:hover {
+        color: $gray-20;
+      }
 
       button {
         background: none;
@@ -49,6 +57,16 @@
         width: 42px;
         display: flex;
         justify-content: space-between;
+
+        a {
+          text-decoration: none;
+          font-size: 10px;
+          color: $white-color;
+        }
+
+        a:hover {
+          color: $gray-20;
+        }
       }
     }
   }
