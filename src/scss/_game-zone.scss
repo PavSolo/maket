@@ -15,7 +15,6 @@
     height: 40px;
     display: flex;
     justify-content: space-between;
-    //gap: 32px;
     white-space: nowrap;
     margin-bottom: 24px;
   }
@@ -74,5 +73,21 @@
     width: 74.7%;
     height: 50%;
     border-bottom: 2px solid $white-color;
+  }
+}
+
+@media (max-width: 902px) {
+  .game-zone__item-round {
+    width: 63%;
+    height: 110px;
+  }
+
+  .game-zone__item-picture {
+    width: 90%;
+    height: auto;
+  }
+
+  .game-zone__items {
+    row-gap: 10px;
   }
 }

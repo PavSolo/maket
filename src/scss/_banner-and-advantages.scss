@@ -4,3 +4,9 @@
   margin-left: 16px;
   overflow: hidden;
 }
+
+@media (max-width: 767px) {
+  .banner-and-advantages {
+    margin-left: 0;
+  }
+}

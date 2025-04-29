@@ -8,15 +8,16 @@
   &__wrap {
     display: flex;
     justify-content: space-between;
+    gap: 7px;
     margin-top: 24px;
   }
 
   &__item {
     width: 371px;
     height: 329px;
-    //background-color: #060F42;
     flex: 0 1 auto;
-    min-width: 200px;
+    min-width: 335px;
+    //min-height: 230px;
 
   }
 
@@ -84,5 +85,15 @@
       width: 16px;
       height: 16px;
     }
+  }
+}
+
+@media (max-width: 1370px) {
+  .news {
+    overflow-x: auto;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
   }
 }

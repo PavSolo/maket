@@ -3,6 +3,7 @@ $margin-top-banner-medium: 15px;
 .banner {
   width: 100%;
   position: relative;
+  cursor: pointer;
 
   &__info {
     position: absolute;
@@ -34,11 +35,20 @@ $margin-top-banner-medium: 15px;
     background-color: $red;
     color: $white-color;
     border: none;
+    cursor: pointer;
     border-radius: 4px;
     font: {
       size: 10px;
       weight: 900;
     };
+
+    &:hover {
+      background-color: #802727;
+    }
+  }
+
+  &__button:hover {
+    //background-color: #802727;
   }
 }
 
