@@ -48,3 +48,14 @@
     }
   }
 }
+
+@media (max-width: 700px) {
+  .partners {
+    overflow-x: auto;
+
+      &__icons-block {
+        gap: 5%;
+      }
+  }
+
+}

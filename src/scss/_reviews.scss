@@ -151,3 +151,27 @@
     }
   }
 }
+
+@media (max-width: 1390px) {
+  .reviews__main-text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1275px) {
+  .reviews__main-text {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1165px) {
+  .reviews {
+    &__rating {
+      display: none;
+    }
+
+    &__main {
+      width: unset;
+    }
+  }
+}
