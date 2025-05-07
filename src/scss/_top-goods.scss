@@ -24,3 +24,15 @@
     }
   }
 }
+
+@media (max-width: 655px) {
+  .top-goods {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @for $i from 3 through 6 {
+    .order-#{$i} {
+      display: none;
+    }
+  }
+}

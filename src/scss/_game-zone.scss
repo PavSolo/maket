@@ -91,3 +91,11 @@
     row-gap: 10px;
   }
 }
+
+@media (max-width: 655px) {
+  @for $i from 5 through 6 {
+    .order-#{$i} {
+      display: none;
+    }
+  }
+}

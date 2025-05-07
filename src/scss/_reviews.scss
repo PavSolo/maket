@@ -175,3 +175,16 @@
     }
   }
 }
+
+@media (max-width: 855px) {
+  .reviews__photo {
+    display: none;
+  }
+}
+
+@media (max-width: 666px)  {
+  .reviews {
+    display: none;
+  }
+}
+
