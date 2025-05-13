@@ -1,0 +1,17 @@
+.mobile-reviews {
+  display: none;
+
+  &__item {
+    width: 250px;
+    height: 270px;
+    background-color: #4267B2;
+  }
+}
+
+
+
+@media (max-width: 666px) {
+  .mobile-reviews {
+    display: unset;
+  }
+}
