@@ -6,3 +6,15 @@
   justify-content: space-between;
   gap: 16px;
 }
+
+@media (max-width: 666px) {
+  .reviews-and-inst {
+    max-width: unset;
+  }
+
+  .reviews-and-inst.container {
+    max-width: unset;
+    margin-inline: unset;
+    padding-inline: unset;
+  }
+}
