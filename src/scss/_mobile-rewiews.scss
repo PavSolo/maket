@@ -1,6 +1,7 @@
 .mobile-reviews {
   display: none;
   width: 100%;
+  margin-top:32px;
 
   &__container {
     max-width: $container-width;
@@ -14,10 +15,12 @@
       weight: 600;
     };
     line-height: 24px;
-    color: $main-dark-blue;
+    color: $dark-gray;
   }
 
   &__rating {
+    margin-top: 12px;
+
     &-grade {
       display: flex;
       justify-content: space-evenly;
@@ -59,23 +62,15 @@
     }
   }
 
-  /*&__rating-grade-stars {
-    display: flex;
-
-    svg {
-      width: 10px;
-      height: 10px;
-    }
-  }*/
-
   &__slider-container {
     width: 100%;
-    overflow: hidden;
-    height: 271px;
+    margin-top: 12px;
+    //height: 271px;
   }
 
   &__item {
     width: 250px;
+    height: 270px;
     border-radius: 4px;
     flex-shrink: 0;
     box-sizing: border-box;
@@ -141,12 +136,27 @@
 .reviews__slider {
   width: 100%;
   overflow: hidden;
+  overflow-y: visible !important;
 }
 
 @media (max-width: 666px) {
   .mobile-reviews {
     display: block;
     width: 100%;
+  }
+}
+
+.swiper {
+  padding: 5px;
+}
+
+.swiper-slide-shadow {
+  &-left {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)) !important;
+  }
+
+  &-right {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)) !important;
   }
 }
 

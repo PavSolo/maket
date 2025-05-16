@@ -9,12 +9,13 @@
 
 @media (max-width: 666px) {
   .reviews-and-inst {
-    max-width: unset;
+    //max-width: unset;
+    display: none;
   }
 
-  .reviews-and-inst.container {
+  /*.reviews-and-inst.container {
     max-width: unset;
     margin-inline: unset;
     padding-inline: unset;
-  }
+  }*/
 }
