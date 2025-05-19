@@ -98,3 +98,15 @@
   }
 
 }
+
+@media (max-width: 1140px) {
+  .footer__section.information, .footer__section.service {
+    display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .footer__section.contacts {
+    display: none;
+  }
+}

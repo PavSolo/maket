@@ -49,13 +49,19 @@
   }
 }
 
-@media (max-width: 700px) {
-  .partners {
-    overflow-x: auto;
+@media (max-width: 1200px) {
+    .partners__icons-block {
+      gap: 2%;
+    }
+}
 
-      &__icons-block {
-        gap: 5%;
-      }
+@media (max-width: 767px) {
+  .partners {
+    overflow: hidden;
   }
 
+  .picture img {
+    width: unset;
+    height: unset;
+  }
 }

@@ -62,12 +62,3 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
-@media (max-width: 370px) {
-  .mobile-inst__item {
-    img {
-      width: unset;
-      height: unset;
-    }
-  }
-}
