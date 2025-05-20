@@ -74,4 +74,5 @@ import '../svg/google.svg';
 import '../svg/facebook.svg';
 import '../svg/eye.svg';
 import '../svg/phone.svg';
+import '../svg/white-logo.svg';
 

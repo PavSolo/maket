@@ -109,4 +109,14 @@
   .footer__section.contacts {
     display: none;
   }
+
+  .footer {
+    max-height: 350px;
+  }
+}
+
+@media (max-width: 385px) {
+  .footer {
+    display: none;
+  }
 }
