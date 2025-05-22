@@ -137,3 +137,31 @@ $header-height: 42px;
     display: unset;
   }
 }
+
+@media (max-width: 810px) {
+  .header-second__action-buttons {
+    svg {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .header-second__phone-svg {
+    svg {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
+@media (max-width: 745px) {
+  .header-second__search-input {
+    display: none;
+  }
+
+  .header-second__search-button {
+    border-radius: 4px;
+  }
+}
+
+

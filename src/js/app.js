@@ -75,4 +75,6 @@ import '../svg/facebook.svg';
 import '../svg/eye.svg';
 import '../svg/phone.svg';
 import '../svg/white-logo.svg';
+import '../svg/footer-input-button.svg';
+import '../svg/white-cart.svg';
 

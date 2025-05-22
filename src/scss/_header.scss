@@ -76,3 +76,9 @@
   width: 106px;
   gap: 3%;
 }
+
+@media (max-width: 640px) {
+  .header {
+    display: none;
+  }
+}
