@@ -77,4 +77,5 @@ import '../svg/phone.svg';
 import '../svg/white-logo.svg';
 import '../svg/footer-input-button.svg';
 import '../svg/white-cart.svg';
+import '../svg/white-cross.svg';
 

@@ -137,6 +137,8 @@
   width: 100%;
   overflow: hidden;
   overflow-y: visible !important;
+  box-sizing: border-box;
+  padding: 5px;
 }
 
 @media (max-width: 666px) {
@@ -144,10 +146,6 @@
     display: block;
     width: 100%;
   }
-}
-
-.swiper {
-  padding: 5px;
 }
 
 .swiper-slide-shadow {

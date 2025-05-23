@@ -28,3 +28,9 @@ const reviewsSlider = new Swiper('.reviews__slider', {
         slideShadows: true,
     },
 });
+
+const categoriesSlider = new Swiper('.mobile-categories__slider', {
+    loop: true,
+    grabCursor: true,
+    spaceBetween: 16,
+});

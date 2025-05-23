@@ -62,3 +62,9 @@
     flex-wrap: nowrap;
   }
 }
+
+@media (max-width: 767px) {
+  .advantages {
+    margin-top: 32px;
+  }
+}

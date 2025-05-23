@@ -1,4 +1,16 @@
 .banner-and-categories-wrap {
   display: flex;
   max-height: 556px;
+  margin-top: 32px;
  }
+
+@media (max-width: 640px) {
+  .banner-and-categories-wrap.container {
+    margin-inline: unset;
+    padding-inline: unset;
+  }
+
+  .banner-and-categories-wrap {
+    margin-top: 0;
+  }
+}
